@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e) {
     if (enterdUsername === validUsername && enterdPassword === validPassword) {
         alert('Inicio de sesion exitoso!')
         //Redirige a la pagina 
-        window.location.href = '';
+        window.location.href = '/CRUD/index.html';
     }else{
         alert('Credenciales incorrectas')
     }
